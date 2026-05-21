@@ -34,7 +34,7 @@ SELECT
     END AS qc_invalid_rating_count,
 
     CASE
-        WHEN "product_link" IS NULL
+        WHEN product_link IS NULL
         THEN TRUE
         ELSE FALSE
     END AS qc_missing_product_link,

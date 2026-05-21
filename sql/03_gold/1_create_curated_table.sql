@@ -8,9 +8,9 @@ SELECT
     -- IDENTIFIERS
     -- =====================================================
 
-    "product_id" AS PRODUCT_ID,
-    "review_id" AS REVIEW_ID,
-    "user_id" AS USER_ID,
+    product_id,
+    review_id,
+    user_id,
 
     -- =====================================================
     -- PRODUCT INFO
@@ -50,8 +50,8 @@ SELECT
     -- LINKS
     -- =====================================================
 
-    "img_link" AS IMG_LINK,
-    "product_link" AS PRODUCT_LINK,
+    img_link,
+    product_link,
 
     -- =====================================================
     -- METADATA
